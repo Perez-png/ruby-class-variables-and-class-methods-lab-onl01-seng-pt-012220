@@ -29,7 +29,7 @@ class genre
 class count
   @@artist.count = artist_count {} 
   
-class genre_count
+class Song.genre_count
   @@genre_count = {}
   
  
