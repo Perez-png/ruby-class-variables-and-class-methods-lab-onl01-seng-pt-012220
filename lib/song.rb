@@ -18,7 +18,7 @@ class count
   @@count = count
   
 class artists
-  artists = .artists
+  artists = (.artists)
   @@artists = []
   
 
