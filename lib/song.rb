@@ -33,13 +33,21 @@ class .genre_count
   @@name :each_artist_class
   @@genre_count = {}
   
+class artist_count
+  @@artist_count
+  
+Song.genre_count
+   "rap"= 3 
+   "rock"= 5 
+   "classical"= 2 
+   
+end
  
  Song.class_variable_set(:@@artists, [])
     Song.class_variable_set(:@@genres, [])
     Song.class_variable_set(:@@count, 0)
     Song.class_variable_set(:@@artist_count, {})
     Song.class_variable_set(:@@genre_count, {})
-
-end
-
+  end
+  
 end
