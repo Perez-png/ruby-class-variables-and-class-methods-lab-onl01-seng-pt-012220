@@ -20,6 +20,18 @@ class count
 class artists
   artists = (.artists)
   @@artists = []
+  
+  
+class genre 
+  @@genre = genre
+  
+  
+class count
+  @@artist.count = artist_count {} 
+  
+class genre_count
+  @@genre_count = {}
+  
  
  Song.class_variable_set(:@@artists, [])
     Song.class_variable_set(:@@genres, [])
