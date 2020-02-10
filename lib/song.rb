@@ -29,7 +29,8 @@ class genre
 class count
   @@artist.count = artist_count {} 
   
-class Song.genre_count
+class .genre_count
+  @@name :each_artist_class
   @@genre_count = {}
   
  
@@ -39,6 +40,6 @@ class Song.genre_count
     Song.class_variable_set(:@@artist_count, {})
     Song.class_variable_set(:@@genre_count, {})
 
-  
+end
 
 end
